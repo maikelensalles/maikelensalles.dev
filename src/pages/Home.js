@@ -1,4 +1,5 @@
 import { Navbar } from '../components/Navbar';
+import { Header } from '../components/Header';
 import { About } from '../components/About';
 import { Education } from '../components/Education';
 import { Experience } from '../components/Experience';
@@ -12,6 +13,7 @@ export function Home() {
                 <Navbar />
             </aside>
             <main>
+                <Header />
                 <div className="main-content">
                     <About />
                 </div>
