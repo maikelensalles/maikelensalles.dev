@@ -1,6 +1,6 @@
 import { Navbar } from '../components/Navbar';
 import { Header } from '../components/Header';
-import { About } from '../components/About';
+import { Skills } from '../components/Skills';
 import { Education } from '../components/Education';
 import { Experience } from '../components/Experience';
 import { Projects } from '../components/Projects';
@@ -10,12 +10,11 @@ export function Home() {
     return (
         <div id="page-auth">
             <aside>
-                <Navbar />
+                <Header />
             </aside>
             <main>
-                <Header />
                 <div className="main-content">
-                    <About />
+                    <Skills />
                 </div>
                 <Education />
                 <Experience />
