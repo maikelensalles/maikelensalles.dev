@@ -1,6 +1,7 @@
 import '../styles/skills.scss';
-import { FaHtml5, FaSass, FaReact } from 'react-icons/fa';
-import { SiJavascript, SiCss3, SiTypescript } from 'react-icons/si';  
+import { FaHtml5, FaSass, FaReact, FaFigma, FaLinux } from 'react-icons/fa';
+import { SiJavascript, SiCss3, SiTypescript, SiFirebase } from 'react-icons/si';
+import { BiGitBranch } from 'react-icons/bi';
 
 const skillsData = [
   {id: 1, title: 'HTML', icon: <FaHtml5 />},
@@ -9,6 +10,10 @@ const skillsData = [
   {id: 4, title: 'React', icon: <FaReact />},
   {id: 5, title: 'JavaScript', icon: <SiJavascript />},
   {id: 6, title: 'TypeScript', icon: <SiTypescript />},
+  {id: 8, title: 'Git', icon: <BiGitBranch />},
+  {id: 9, title: 'Figma', icon: <FaFigma />},
+  {id: 10, title: 'Linux', icon: <FaLinux />},
+  {id: 10, title: 'Firebase', icon: <SiFirebase />},
 ];
 
 export function Skills() {
