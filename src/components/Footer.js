@@ -2,6 +2,8 @@ import '../styles/footer.scss';
 
 export function Footer() {
     return (
-      <h1>Final</h1>
+      <div id="footer">
+        <p>Made with ♡ by Maikelen Salles</p>
+      </div>
     )
 }
