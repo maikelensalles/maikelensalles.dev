@@ -1,9 +1,7 @@
 import '../styles/header.scss';
 
-import {
-  FaLinkedin,
-  FaGithub,
-} from 'react-icons/fa';
+import { FaLinkedin, FaGithub } from 'react-icons/fa';
+import { SiWhatsapp, SiInstagram } from 'react-icons/si';
 
 const headerData = {
   name: 'Maikelen Salles',
@@ -13,9 +11,9 @@ const headerData = {
 }
 
 const socialsData = {
-  github: 'https://github.com/maikelensalles',
-  facebook: 'https://www.facebook.com/maikelen.salles/',
   linkedIn: 'https://www.linkedin.com/in/maikelen-salles',
+  github: 'https://github.com/maikelensalles',
+  whatsapp: 'https://api.whatsapp.com/send?phone=5551980418444&text=Ol%C3%A1%20Maikelen',
   instagram: 'https://www.instagram.com/maikelensalles/',
 }
 
@@ -47,6 +45,30 @@ export function Header() {
                           <FaGithub
                               className='landing--social'
                               aria-label='GitHub'
+                          />
+                      </a>
+                  )}
+                  {socialsData.whatsapp && (
+                      <a
+                          href={socialsData.whatsapp}
+                          target='_blank'
+                          rel='noreferrer'
+                      >
+                          <SiWhatsapp
+                              className='landing--social'
+                              aria-label='Whatsapp'
+                          />
+                      </a>
+                  )}
+                  {socialsData.instagram && (
+                      <a
+                          href={socialsData.instagram}
+                          target='_blank'
+                          rel='noreferrer'
+                      >
+                          <SiInstagram
+                              className='landing--social'
+                              aria-label='Instagram'
                           />
                       </a>
                   )}
@@ -85,6 +107,30 @@ export function Header() {
                               />
                           </a>
                       )}
+                      {socialsData.whatsapp && (
+                      <a
+                          href={socialsData.whatsapp}
+                          target='_blank'
+                          rel='noreferrer'
+                      >
+                          <SiWhatsapp
+                              className='duol--social'
+                              aria-label='Whatsapp'
+                          />
+                      </a>
+                    )}
+                    {socialsData.instagram && (
+                        <a
+                            href={socialsData.instagram}
+                            target='_blank'
+                            rel='noreferrer'
+                        >
+                            <SiInstagram
+                                className='duol--social'
+                                aria-label='Instagram'
+                            />
+                        </a>
+                    )}
                   </div>
                   <div
                       className='lcr--content'
