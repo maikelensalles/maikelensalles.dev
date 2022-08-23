@@ -1,0 +1,14 @@
+#footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0.5rem 2rem 0.5rem 2rem;
+    background-color: #212121;
+
+    p {
+        color: #eaeaea;
+        font-weight: 500;
+        font-size: 1.15rem;
+    }
+}
