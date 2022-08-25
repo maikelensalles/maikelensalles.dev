@@ -6,6 +6,21 @@
     padding: 0.5rem 2rem 0.5rem 2rem;
     background-color: #212121;
 
+    img {
+        width: 28%;
+        height: 60%;
+    }
+
+    $mobile: "only screen and (max-width : 500px)";
+
+    @media #{$mobile} {
+      img {
+        width: 75%;
+        height: 60%;
+
+      }
+    }
+
     p {
         color: #eaeaea;
         font-weight: 500;
