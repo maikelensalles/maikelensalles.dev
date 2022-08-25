@@ -6,7 +6,7 @@ import { SiWhatsapp, SiInstagram } from 'react-icons/si';
 const headerData = {
   name: 'Maikelen Salles',
   title: "Web Developer",
-  desciption:"There wasn't a bird in the sky, but that was not what caught her attention. It was the clouds. The deep green that isn't the color of clouds, but came with these. She knew what was coming and she hoped she was prepared. ",
+  desciption:"Mantenho interesse pela área de desenvolvimento front-end. Na minha experiência, sempre foquei em boas práticas no desenvolvimento de cada projeto e estou disposta a aprender muito mais. Algumas palavras-chave que fazem parte da minha rotina como desenvolvedora: modelo de desenvolvimento ágil, trabalho em equipe, Clean Code, princípios SOLID, consumo de APIs, versionamento com git. Aguardem as cenas dos próximos capítulos dessa jornada ;)",
   image: 'https://avatars.githubusercontent.com/u/68317244?v=4',
 }
 
