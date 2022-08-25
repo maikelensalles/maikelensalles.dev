@@ -42,7 +42,10 @@
       align-items: center;
       justify-content: center;
       padding: 2rem 1rem;
-      transition: 300ms ease-in-out;
+      transition: transform 0.5s;
+      &:hover {
+        transform: scale(1.1);
+      }
   
       .skillsImage {
         color: #eaeaea;
