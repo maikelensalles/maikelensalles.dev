@@ -1,0 +1,95 @@
+#navbar {
+    height: 6.5rem;
+    position: absolute;
+    background-color: transparent;
+    z-index: 99;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+
+    .navbar--container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        padding: 0 1rem;
+        margin-top: 4rem;
+
+        img {
+            width: 13%;
+            height: 60%;
+        }
+
+        $tablet: "only screen and (max-width : 800px)";
+
+        @media #{$tablet} {
+            img {
+                width: 23%;
+                height: 60%;
+
+            }
+        }
+
+        $mobile: "only screen and (max-width : 500px)";
+
+        @media #{$mobile} {
+            img {
+                width: 40%;
+                height: 60%;
+
+            }
+        }
+
+        .navMenu {
+            font-size: 2.5rem;
+            cursor: pointer;
+            transform: translateY(-10px);
+            transition: color 0.3s;
+
+            .MuiFab-primary {
+                background-color: #ff4f93;
+            }
+
+            .MuiSpeedDialIcon-icon {
+                color: #212121;
+            }
+
+            .css-xvqdrr-MuiSpeedDial-root.MuiSpeedDial-directionLeft {
+                bottom: 172px;
+                right: 16px;
+            }
+
+            $tablet: "only screen and (max-width : 800px)";
+
+            @media #{$tablet} {
+                .MuiFab-primary {
+                    background-color: #212121;
+                }
+
+                .MuiSpeedDialIcon-icon {
+                    color: #ff4f93;
+                }
+    
+            }
+
+            $tablet: "only screen and (max-width : 600px)";
+
+            @media #{$tablet} {
+                .css-xvqdrr-MuiSpeedDial-root.MuiSpeedDial-directionLeft {
+                    bottom: 196px;
+                    right: 16px;
+                }
+
+                .MuiFab-primary {
+                    background-color: #212121;
+                }
+
+                .MuiSpeedDialIcon-icon {
+                    color: #ff4f93;
+                }
+    
+            }
+        }
+    }
+}
