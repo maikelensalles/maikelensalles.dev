@@ -17,7 +17,7 @@ import SettingsIcon from '@mui/icons-material/Settings';
 import HomeIcon from '@mui/icons-material/Home';
 import '../styles/navbar.scss';
 
-const imagem = ['https://maikelensalles.site/images/maikelensalles2.png']
+const images = ['https://maikelensalles.site/images/maikelensalles2.png']
 
 const StyledSpeedDial = styled(SpeedDial)(({ theme }) => ({
   position: 'absolute',
@@ -53,7 +53,7 @@ export function Navbar() {
     return (
         <div id="navbar">
           <div className="navbar--container">
-            <img src={imagem} />
+            <img src={images} />
             
             <div className="navMenu">
               <Box sx={{ transform: 'translateZ(0px)', flexGrow: 1 }}>
