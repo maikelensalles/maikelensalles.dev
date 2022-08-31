@@ -17,8 +17,6 @@ import SettingsIcon from '@mui/icons-material/Settings';
 import HomeIcon from '@mui/icons-material/Home';
 import '../styles/navbar.scss';
 
-const images = ['https://maikelensalles.site/images/maikelensalles2.png']
-
 const StyledSpeedDial = styled(SpeedDial)(({ theme }) => ({
   position: 'absolute',
   '&.MuiSpeedDial-directionUp, &.MuiSpeedDial-directionLeft': {
@@ -39,7 +37,7 @@ const actions = [
 
 export function Navbar() {
 
-    const [direction, setDirection] = React.useState('left');
+    const [direction, setDirection] = React.useState('up');
     const [hidden, setHidden] = React.useState(false);
 
     const handleDirectionChange = (event) => {
@@ -52,51 +50,28 @@ export function Navbar() {
 
     return (
         <div id="navbar">
-          <div className="navbar--container">
-            <img src={images} />
-            
-            <div className="navMenu">
-              <Box sx={{ transform: 'translateZ(0px)', flexGrow: 1 }}>
-                <FormControlLabel
-                  control={
-                    <Switch checked={hidden} onChange={handleHiddenChange} color="primary" />
-                  }
-                  label="Hidden"
-                />
-                <FormControl component="fieldset" sx={{ mt: 1, display: 'flex' }}>
-                  <FormLabel component="legend">Direction</FormLabel>
-                  <RadioGroup
-                    aria-label="direction"
-                    name="direction"
-                    value={direction}
-                    onChange={handleDirectionChange}
-                    row
-                  >
-                    <FormControlLabel value="up" control={<Radio />} label="Up" />
-                    <FormControlLabel value="right" control={<Radio />} label="Right" />
-                    <FormControlLabel value="down" control={<Radio />} label="Down" />
-                    <FormControlLabel value="left" control={<Radio />} label="Left" />
-                  </RadioGroup>
-                </FormControl>
-                <Box sx={{ position: 'relative', mt: 3, height: 320 }}>
-                  <StyledSpeedDial
-                    ariaLabel="SpeedDial playground example"
-                    hidden={hidden}
-                    icon={<SpeedDialIcon openIcon={<CloseIcon />} icon={<MenuIcon />} />}
-                    direction={direction}
-                  >
-                    {actions.map((action) => (
-                      <SpeedDialAction
-                        key={action.name}
-                        href={action.link}
-                        icon={action.icon}
-                        tooltipTitle={action.name}
-                      />
-                    ))}
-                  </StyledSpeedDial>
-                </Box>
+          <div className="navMenu">
+            <Box sx={{ transform: 'translateZ(0px)', flexGrow: 1 }}>
+              
+             
+              <Box sx={{ position: 'relative', mt: 3, height: 320 }}>
+                <StyledSpeedDial
+                  ariaLabel="SpeedDial playground example"
+                  hidden={hidden}
+                  icon={<SpeedDialIcon openIcon={<CloseIcon />} icon={<MenuIcon />} />}
+                  direction={direction}
+                >
+                  {actions.map((action) => (
+                    <SpeedDialAction
+                      key={action.name}
+                      href={action.link}
+                      icon={action.icon}
+                      tooltipTitle={action.name}
+                    />
+                  ))}
+                </StyledSpeedDial>
               </Box>
-            </div>
+            </Box>
           </div>
         </div>
       );
