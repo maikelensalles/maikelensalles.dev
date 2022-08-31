@@ -6,18 +6,12 @@ import { Footer } from '../components/Footer';
 
 export function Home() {
     return (
-        <div id="page-auth">
-            <aside>
-                <Navbar />
-                <Header />
-            </aside>
-            <main>
-                <div className="main-content">
-                    <Skills />
-                    <Projects />
-                </div>
-                <Footer />
-            </main>
+        <div>
+            <Navbar />
+            <Header />
+            <Skills />
+            <Projects />
+            <Footer />
         </div>
     )
 }
