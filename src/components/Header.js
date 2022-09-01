@@ -24,7 +24,7 @@ export function Header() {
     return (
     <div id="header">
         <div className="navbar--container">
-            <img src={images} className="img-logo" />
+            <img src={images} alt='' className="img-logo" />
         </div>
         <div className='landing'>
             <div className='landing--container'>
