@@ -3,7 +3,7 @@ import { FaCode } from 'react-icons/fa';
 
 const projectData = [
   {id: 1, title: 'Sistema de salas', image: 'https://maikelensalles.site/images/letmeask-reactjs.jpg', 
-   code: 'https://github.com/maikelensalles/Letmeask-ReactJS', tags: ['TypeScript', 'SASS', 'HTML']},
+   code: 'https://github.com/maikelensalles/Letmeask-ReactJS', tags: ['React.js', 'TypeScript', 'SASS', 'HTML']},
   {id: 2, title: 'Landing Page', image: 'https://maikelensalles.site/images/landing-page-meus-links.jpg', 
    code: 'https://github.com/maikelensalles/Landing-page---Meus-Links', tags: ['HTML', 'CSS']},
   {id: 3, title: 'Layout de sistema', image: 'https://maikelensalles.site/images/uidashboard.jpg', 
