@@ -91,5 +91,17 @@
         margin: 13px;
       }
     }
+
+    $iphone12: "only screen and (max-width : 410px)";
+
+    @media #{$iphone12} {
+      .lcl--container {
+        margin-top: 2rem;
+      }
+      .skill--box {
+        width: 97px;
+
+      }
+    }
   }
 }
