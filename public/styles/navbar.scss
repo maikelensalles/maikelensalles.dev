@@ -1,0 +1,46 @@
+#navbar {
+    height: 6.5rem;
+    position: absolute;
+    background-color: transparent;
+    z-index: 99;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%;
+
+        .navMenu {
+            cursor: pointer;
+            transform: translateY(-10px);
+            transition: color 0.3s;
+            position: fixed;
+            right: 0;
+            top: 0%;
+            width: 6em;
+
+            .MuiFab-primary {
+                background-color: #ff4f93;
+            }
+
+            .MuiSpeedDialIcon-icon {
+                color: #212121;
+            }
+
+            .css-i4bv87-MuiSvgIcon-root {
+                color: #212121
+            }
+
+            .css-xvqdrr-MuiSpeedDial-root.MuiSpeedDial-directionLeft {
+                bottom: 172px;
+                right: 16px;
+            }
+
+            $tablet: "only screen and (max-width : 600px)";
+
+            @media #{$tablet} {
+                .css-xvqdrr-MuiSpeedDial-root.MuiSpeedDial-directionLeft {
+                    bottom: 196px;
+                    right: 16px;
+                }
+            }
+        }
+}
