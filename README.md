@@ -1,10 +1,10 @@
-# Meu portfólio com ReactJS
+# Meu portfólio
 
 ## 🧪 Tecnologias
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-- [React](https://reactjs.org)
+- [React.js](https://reactjs.org)
 - [JavaScript](https://javascript.info/js)
 - [Sass](https://sass-lang.com/)
 
@@ -13,8 +13,8 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 Clone o projeto e acesse a pasta do mesmo.
 
 ```bash
-$ git clone https://github.com/maikelensalles/portfolio-react.git
-$ cd portfolio-react
+$ git clone https://github.com/maikelensalles/maikelensalles.dev
+$ cd maikelensalles.dev
 ```
 
 Para iniciá-lo, siga os passos abaixo:
