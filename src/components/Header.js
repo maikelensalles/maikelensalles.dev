@@ -8,7 +8,7 @@ const images = ['https://maikelensalles.site/images/maikelensalles2.png']
 const headerData = {
   name: 'Maikelen Salles',
   title: "Web Developer",
-  desciption:"Mantenho interesse pela área de desenvolvimento front-end. Na minha experiência, sempre foquei em boas práticas no desenvolvimento de cada projeto e estou disposta a aprender muito mais. Algumas palavras-chave que fazem parte da minha rotina como desenvolvedora: modelo de desenvolvimento ágil, trabalho em equipe, Clean Code, princípios SOLID, consumo de APIs, versionamento com git. Aguardem as cenas dos próximos capítulos dessa jornada ;)",
+  desciption:"Mantenho interesse pela área de desenvolvimento front-end. Na minha experiência, sempre foquei em boas práticas no desenvolvimento de cada projeto e estou disposta a aprender muito mais. Algumas palavras-chave que fazem parte da minha rotina como desenvolvedora: modelo de desenvolvimento ágil, acessibilidade, trabalho em equipe, Clean Code, princípios SOLID, Figma, HTML5, CSS3, SASS, JavaScript, React, Node.js, WordPress, consumo de APIs, versionamento com git.",
   image: 'https://avatars.githubusercontent.com/u/68317244?v=4',
 }
 
