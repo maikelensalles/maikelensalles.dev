@@ -14,7 +14,7 @@ const projectData = [
    code: 'https://github.com/maikelensalles/UI-Dashboard', tags: ['HTML', 'CSS', 'SASS', 'Bootstrap']},
   {id: 6, title: 'Sistema para gerenciamento de aplicativo P2P', image: 'https://maikelensalles.site/images/projetos/projeto-3.jpg', 
    code: 'https://github.com/maikelensalles/forte-play', tags: ['JavaScript', 'CSS', 'SASS', 'Laravel']},
-  {id: 7, title: 'Sistema para gerenciamento de delivery', image: 'https://maikelensalles.site/images/projetos/projeto-3.jpg',
+  {id: 7, title: 'Sistema para gerenciamento de delivery', image: 'https://maikelensalles.site/images/projetos/projeto-2.jpg',
    code: 'https://github.com/maikelensalles/delivery', tags: ['Laravel', 'Blade', 'Less']},
   {id: 8, title: 'Sistema para gerenciamento de investimentos', image: 'https://maikelensalles.site/images/projetos/projeto-1.jpg',
    code: 'https://github.com/maikelensalles/ativos-master', tags: ['Blade', 'PHP', 'Laravel']}
