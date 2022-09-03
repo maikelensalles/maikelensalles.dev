@@ -230,15 +230,31 @@
   .lcr--content {
     margin-top: 0%;
   }
+  .lcl--container {
+    margin-top: 2rem;
+  }
+}
+@media (max-width: 462px) {
+  .lcl--container {
+    margin-top: 4rem;
+  }
 }
 @media (max-width: 414px) {
   .img-logo {
     height: 170%;
   }
 }
-@media (max-width: 393px) {
+@media (max-width: 406px) {
+  .img-logo {
+    height: 150%;
+  }
   .lcl--container {
-    margin-top: 2rem;
+    margin-top: 5rem;
+  }
+}
+@media (max-width: 396px) {
+  .lcl--container {
+    margin-top: 5rem;
   }
 }
 @media (max-width: 375px) {
@@ -250,7 +266,7 @@
     height: 145%;
   }
   .lcl--container{
-    margin-top: 9rem;
+    margin-top: 8rem;
   }
 }
 @media (max-width: 355px) {
