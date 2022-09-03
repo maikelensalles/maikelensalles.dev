@@ -2,21 +2,21 @@ import '../styles/projects.scss';
 import { FaCode } from 'react-icons/fa';
 
 const projectData = [
-  {id: 1, title: 'Sistema de salas', image: 'https://maikelensalles.site/images/projetos/projeto-1.jpg', 
+  {id: 1, title: 'Sistema de salas', image: 'https://maikelensalles.site/images/projetos/projeto-8.jpg', 
    code: 'https://github.com/maikelensalles/Letmeask-ReactJS', tags: ['React.js', 'TypeScript', 'SASS', 'HTML']},
-  {id: 2, title: 'Meu portfólio', image: 'https://maikelensalles.site/images/projetos/projeto-2.jpg', 
+  {id: 2, title: 'Meu portfólio', image: 'https://maikelensalles.site/images/projetos/projeto-7.jpg', 
    code: 'https://github.com/maikelensalles/maikelensalles.dev', tags: ['React.js', 'JavaScript', 'SASS']},
-  {id: 3, title: 'Design de sistema', image: 'https://maikelensalles.site/images/projetos/projeto-3.jpg', 
+  {id: 3, title: 'Design de sistema', image: 'https://maikelensalles.site/images/projetos/projeto-6.jpg', 
    code: 'https://www.figma.com/file/aGJd7qpweEGxdR3awxSbNh/Squash?node-id=0%3A1', tags: ['Figma', 'UI/UX', 'Material Design']},
-  {id: 4, title: 'Landing Page', image: 'https://maikelensalles.site/images/projetos/projeto-4.jpg', 
+  {id: 4, title: 'Landing Page', image: 'https://maikelensalles.site/images/projetos/projeto-5.jpg', 
    code: 'https://github.com/maikelensalles/Landing-page---Meus-Links', tags: ['HTML', 'CSS']},
-  {id: 5, title: 'Layout de sistema', image: 'https://maikelensalles.site/images/projetos/projeto-5.jpg', 
+  {id: 5, title: 'Layout de sistema', image: 'https://maikelensalles.site/images/projetos/projeto-4.jpg', 
    code: 'https://github.com/maikelensalles/UI-Dashboard', tags: ['HTML', 'CSS', 'SASS', 'Bootstrap']},
-  {id: 6, title: 'Sistema para gerenciamento de aplicativo P2P', image: 'https://maikelensalles.site/images/projetos/projeto-6.jpg', 
+  {id: 6, title: 'Sistema para gerenciamento de aplicativo P2P', image: 'https://maikelensalles.site/images/projetos/projeto-3.jpg', 
    code: 'https://github.com/maikelensalles/forte-play', tags: ['JavaScript', 'CSS', 'SASS', 'Laravel']},
-  {id: 7, title: 'Sistema para gerenciamento de delivery', image: 'https://maikelensalles.site/images/projetos/projeto-7.jpg',
+  {id: 7, title: 'Sistema para gerenciamento de delivery', image: 'https://maikelensalles.site/images/projetos/projeto-3.jpg',
    code: 'https://github.com/maikelensalles/delivery', tags: ['Laravel', 'Blade', 'Less']},
-  {id: 8, title: 'Sistema para gerenciamento de investimentos', image: 'https://maikelensalles.site/images/projetos/projeto-8.jpg',
+  {id: 8, title: 'Sistema para gerenciamento de investimentos', image: 'https://maikelensalles.site/images/projetos/projeto-1.jpg',
    code: 'https://github.com/maikelensalles/ativos-master', tags: ['Blade', 'PHP', 'Laravel']}
 ];
 
