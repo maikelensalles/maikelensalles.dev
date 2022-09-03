@@ -238,10 +238,16 @@
   .lcl--container {
     margin-top: 4rem;
   }
+  .lcr--content h6 {
+    margin-top: 1rem;
+  }
 }
 @media (max-width: 414px) {
   .img-logo {
     height: 170%;
+  }
+  .lcr--content h6 {
+    margin-top: 1rem;
   }
 }
 @media (max-width: 406px) {
