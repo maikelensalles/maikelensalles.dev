@@ -231,10 +231,26 @@
     margin-top: 0%;
   }
 }
-@media (max-width: 371px) {
+@media (max-width: 414px) {
+  .img-logo {
+    height: 170%;
+  }
+}
+@media (max-width: 393px) {
+  .lcl--container {
+    margin-top: 2rem;
+  }
+}
+@media (max-width: 375px) {
+  .navbar--container {
+    margin-top: 1.5rem;
+  }
   .img-logo {
     width: 117%;
-    height: 168%;
+    height: 145%;
+  }
+  .lcl--container{
+    margin-top: 9rem;
   }
 }
 @media (max-width: 355px) {
