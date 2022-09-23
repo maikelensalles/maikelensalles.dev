@@ -6,7 +6,8 @@ export function Footer() {
     return (
       <div id="footer">
         <img src={imagem} alt='' />
-        <p>Made with ♡ by Maikelen Salles</p>
+        <h3>Aguardem as cenas dos próximos capítulos dessa jornada 😉</h3>
+        <p>Made with ❤ by Maikelen Salles</p>
       </div>
     )
 }
